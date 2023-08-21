@@ -1,8 +1,9 @@
 import Image from "next/image";
 
+
 const OurBrand = () => {
   return (
-    <div id="ourBrand" className="bg-white mt-28 mb-20">
+    <div data-aos="fade-up" id="ourBrand" className="bg-white mt-28 mb-20">
       <h1 className="md:text-6xl text-slate-700 text-5xl font-bold text-center grid grid-col-1 justify-center my-12 ">
         Our Brand
         <span className="w-full border-b-2 border-solid border-orange-600 inline-block mt-3"></span>

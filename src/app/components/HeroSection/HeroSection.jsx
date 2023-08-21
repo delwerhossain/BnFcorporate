@@ -16,7 +16,11 @@ const HeroSection = () => {
     attemptPlay();
   }, []);
   return (
-    <section id="#home" className="md:pt-36 md:py-5 bg-neutral-100 lg:py-10">
+    <section
+      data-aos="fade-up"
+      id="#home"
+      className="md:pt-36 md:py-5 bg-neutral-100 lg:py-10"
+    >
       <div className="gap-5">
         <div className="order-1 lg:order-2">
           <video

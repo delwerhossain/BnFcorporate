@@ -30,7 +30,7 @@ const team = [
 
 const ManageTeam = () => {
   return (
-    <div className="mt-20">
+    <div data-aos="fade-up" className="mt-20">
       <h1 className="md:text-5xl text-slate-700 text-3xl font-bold text-center grid grid-col-1 justify-center my-12 bg-orange-50 rounded-xl lg:py-2 py-3 lg:w-2/3 w-11/12 mx-auto">
         <span>
           {" "}
