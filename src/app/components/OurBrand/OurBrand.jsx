@@ -12,7 +12,7 @@ const OurBrand = () => {
             {" "}
             <Image
               className="rounded-full border-4 border-orange-600"
-              src={"https://thebandf.com/assets/img/care.png"}
+              src={"/care.png"}
               alt=" "
               width={400}
               height={300}
@@ -22,7 +22,7 @@ const OurBrand = () => {
             {" "}
             <Image
               className="rounded-full border-4 border-orange-600"
-              src={"https://thebandf.com/assets/img/it.png"}
+              src={"/it.png"}
               alt=" "
               width={400}
               height={300}
@@ -32,7 +32,7 @@ const OurBrand = () => {
             {" "}
             <Image
               className="rounded-full border-4 border-orange-600"
-              src={"https://thebandf.com/assets/img/pro.png"}
+              src={"/pro.png"}
               alt=" "
               width={400}
               height={300}
@@ -42,7 +42,7 @@ const OurBrand = () => {
             {" "}
             <Image
               className="rounded-full border-4 border-orange-600"
-              src={"https://thebandf.com/assets/img/call.png"}
+              src={"/call.png"}
               alt=" "
               width={400}
               height={300}
@@ -52,7 +52,7 @@ const OurBrand = () => {
         <div className="md:mt-28 mt-14">
           <Image
             className=" rounded-xl border border-orange-600 md:w-full w-11/12 mx-auto"
-            src={"http://bnfcorporate.com/images/about.jpeg"}
+            src={"/about.jpeg"}
             alt=" "
             width={1400}
             height={800}
