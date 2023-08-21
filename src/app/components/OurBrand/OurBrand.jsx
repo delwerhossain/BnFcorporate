@@ -12,7 +12,7 @@ const OurBrand = () => {
           {" "}
           <Image
             className="rounded-full border-4 border-orange-600"
-            src={"/image/care.png"}
+            src={"/image/care.webp"}
             alt=" "
             width={400}
             height={300}
@@ -22,7 +22,7 @@ const OurBrand = () => {
           {" "}
           <Image
             className="rounded-full border-4 border-orange-600"
-            src={"/image/it.png"}
+            src={"/image/it.webp"}
             alt=" "
             width={400}
             height={300}
@@ -32,7 +32,7 @@ const OurBrand = () => {
           {" "}
           <Image
             className="rounded-full border-4 border-orange-600"
-            src={"/image/pro.png"}
+            src={"/image/pro.webp"}
             alt=" "
             width={400}
             height={300}
@@ -42,7 +42,7 @@ const OurBrand = () => {
           {" "}
           <Image
             className="rounded-full border-4 border-orange-600"
-            src={"/image/call.png"}
+            src={"/image/call.webp"}
             alt=" "
             width={400}
             height={300}
