@@ -6,8 +6,9 @@ const nextConfig = {
       "images.unsplash.com",
       "cdn.devdojo.com",
       "thebandf.com",
+      "bnfcorporate.com",
     ],
   },
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;

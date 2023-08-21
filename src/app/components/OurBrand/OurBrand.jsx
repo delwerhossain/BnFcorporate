@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const OurBrand = () => {
     return (
-      <div className="bg-white my-28">
-        <h1 className="text-6xl font-bold text-center grid grid-col-1 justify-center my-12 ">
+      <div className="bg-white mt-28 mb-20">
+        <h1 className="md:text-6xl text-slate-700 text-5xl font-bold text-center grid grid-col-1 justify-center my-12 ">
           Our Brand
-        <span className="w-full border-b-2 border-solid border-orange-600 inline-block mt-3"></span>
+          <span className="w-full border-b-2 border-solid border-orange-600 inline-block mt-3"></span>
         </h1>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 mx-auto justify-center w-4/5 md:w-full">
+        <div className="grid lg:grid-cols-4 grid-cols-2   gap-8 mx-auto justify-center w-4/5 md:w-full">
           <div>
             {" "}
             <Image
@@ -49,8 +49,19 @@ const OurBrand = () => {
             />{" "}
           </div>
         </div>
+        <div className="md:mt-28 mt-14">
+          <Image
+            className=" rounded-xl border border-orange-600 md:w-full w-11/12 mx-auto"
+            src={"http://bnfcorporate.com/images/about.jpeg"}
+            alt=" "
+            width={1400}
+            height={800}
+          />{" "}
+        </div>
       </div>
     );
 };
 
 export default OurBrand;
+
+
