@@ -53,25 +53,25 @@ const Header = () => {
             </div>
             <nav className="hidden md:flex space-x-10">
               <Link
-                href="/page/news"
+                href="#home"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
                 Home
               </Link>
               <Link
-                href="#"
+                href="#ourBrand"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
-                About
+                Brand
               </Link>
               <Link
-                href="/page/news"
+                href="#cit"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
                 Team
               </Link>
               <Link
-                href="#"
+                href="#contact"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
                 Contact

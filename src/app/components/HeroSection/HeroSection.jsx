@@ -16,14 +16,14 @@ const HeroSection = () => {
     attemptPlay();
   }, []);
   return (
-    <section className="md:pt-36 md:py-5 bg-neutral-100 lg:py-10">
+    <section id="#home" className="md:pt-36 md:py-5 bg-neutral-100 lg:py-10">
       <div className="gap-5">
         <div className="order-1 lg:order-2">
           <video
             style={{ maxWidth: "100%", width: "1200px", margin: "0 auto" }}
             loop
             muted
-            controls            
+            controls
             preload="auto"
             alt="All the devices"
             src="./ProfileVideo.mp4"
