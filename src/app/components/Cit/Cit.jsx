@@ -16,7 +16,7 @@ const Cit = () => {
       <div className="md:mt-10 mt-4">
         <Image
           className="rounded-lg border border-orange-600 md:w-full w-11/12 mx-auto"
-          src={"https://thebandf.com/assets/img/us.jpg"}
+          src={"/image/us.webp"}
           alt=" Chowdhury Info Tech "
           width={1400}
           height={800}
