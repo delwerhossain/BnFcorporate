@@ -1,5 +1,6 @@
 import Image from "next/image";
-
+import { Globe } from "../Globe/Globe";
+import { GlobeMobile } from "../Globe/GlobeMobile";
 
 const OurBrand = () => {
   return (
@@ -50,7 +51,17 @@ const OurBrand = () => {
           />{" "}
         </div>
       </div>
-      <div className="md:mt-28 mt-14">
+      {/* global 3d  */}
+      <div>
+        <div className="hidden lg:block">
+          {" "}
+          <Globe />
+        </div>
+        <div className="lg:hidden ">
+          <GlobeMobile />
+        </div>
+      </div>
+      <div className="md:mt-12 mt-6">
         <Image
           className=" rounded-xl border border-orange-600 md:w-full w-11/12 mx-auto"
           src={"/image/about.jpeg"}
