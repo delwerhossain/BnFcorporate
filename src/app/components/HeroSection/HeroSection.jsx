@@ -19,10 +19,10 @@ const HeroSection = () => {
     <section
       data-aos="fade-up"
       id="#home"
-      className="md:pt-48 md:py-5 bg-neutral-100 lg:py-10"
+      className=" md:py-5 bg-neutral-100 lg:py-10"
     >
       <div className="gap-5">
-        <div className="order-1 lg:order-2">
+        <div className="order-1 lg:order-2 pt-12 h-screen">
           {/* <video
             style={{ maxWidth: "100%", width: "1200px", margin: "0 auto" }}
             loop
@@ -34,12 +34,14 @@ const HeroSection = () => {
             ref={videoEl}
           /> */}
           <iframe
+            className=" h-5/6"
+            
             width="100%"
             height="100%"
             src="https://www.youtube.com/embed/Wo-v5AGm5qk"
             title="YouTube video player"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
         </div>
