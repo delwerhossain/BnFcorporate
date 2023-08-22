@@ -12,13 +12,13 @@ export const Globe = () => {
 
     const globe = createGlobe(canvasRef.current, {
       devicePixelRatio: 2,
-      width:  800 * 2,
-      height: 800 * 2,
+      width:  600 * 2,
+      height: 600 * 2,
       phi: 0,
       theta: 0,
-      dark: 1,
+      dark: 2,
       diffuse: 1.2,
-      mapSamples: 16000,
+      mapSamples: 8000,
       mapBrightness: 6,
       baseColor: [0.3, 0.3, 0.3],
       markerColor: [0.1, 0.8, 1],
@@ -45,7 +45,7 @@ export const Globe = () => {
     <div className="grid justify-center  items-center text-center">
       <canvas
         ref={canvasRef}
-        style={{ width: 800, height: 800, maxWidth: "100%", aspectRatio: 1 }}
+        style={{ width: 600, height: 600, maxWidth: "100%", aspectRatio: 1 }}
       />
     </div>
   );

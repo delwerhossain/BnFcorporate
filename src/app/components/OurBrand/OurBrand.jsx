@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Globe } from "../Globe/Globe";
-import { GlobeMobile } from "../Globe/GlobeMobile";
 
 const OurBrand = () => {
   return (
@@ -56,10 +55,7 @@ const OurBrand = () => {
         <div className="hidden lg:block">
           {" "}
           <Globe />
-        </div>
-        <div className="lg:hidden ">
-          <GlobeMobile />
-        </div>
+        </div>      
       </div>
       <div className="md:mt-12 mt-6">
         <Image
