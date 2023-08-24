@@ -31,10 +31,7 @@ const HeroSection = () => {
               height="100%"
               url="https://www.youtube.com/embed/Wo-v5AGm5qk"
               controls={true}
-              autoplay={true}
-              loop={true}
-              onReady={true}
-              onStart={true}
+            
             />
           </div>
           {/* <video
