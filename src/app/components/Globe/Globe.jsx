@@ -18,7 +18,7 @@ export const Globe = () => {
       theta: 0,
       dark: 2,
       diffuse: 1.2,
-      mapSamples: 8000,
+      mapSamples: 4000,
       mapBrightness: 6,
       baseColor: [0.3, 0.3, 0.3],
       markerColor: [0.1, 0.8, 1],
