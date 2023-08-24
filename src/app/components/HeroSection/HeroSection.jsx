@@ -24,14 +24,19 @@ const HeroSection = () => {
     >
       <div className="gap-5">
         <div className="order-1 lg:order-2 lg:pt-12 lg:h-screen">
-          <ReactPlayer
-            className=" lg:h-4/6"
-            width="100%"
-            height="100%"
-            url="https://www.youtube.com/embed/Wo-v5AGm5qk"
-            controls={true}
-            playing={true}
-          />
+          <div className=" lg:h-5/6">
+            {" "}
+            <ReactPlayer
+              width="100%"
+              height="100%"
+              url="https://www.youtube.com/embed/Wo-v5AGm5qk"
+              controls={true}
+              autoplay={true}
+              loop={true}
+              onReady={true}
+              onStart={true}
+            />
+          </div>
           {/* <video
             className=" lg:h-5/6"
             style={{ maxWidth: "100%", width: "1200px", margin: "0 auto" }}
