@@ -31,7 +31,7 @@ const HeroSection = () => {
             controls
             preload="auto"
             alt="B&F CORPORATE"
-            src="http://video.chowdhuryinfotech.com/video.mp4"
+            src="https://chowdhuryinfotech.com/video.mp4"
             ref={videoEl}
           />
           {/* <iframe
