@@ -19,7 +19,7 @@ const Header = () => {
                 <span className="sr-only">Workflow</span>
                 <Image
                   className="h-8 w-auto sm:h-10"
-                  src="https://thebandf.com/assets/img/logo.png"
+                  src="/image/logo.webp"
                   alt=""
                   width={300}
                   height={200}
@@ -563,7 +563,7 @@ const Header = () => {
                 <div>
                   <Image
                     className="h-8 w-auto"
-                    src="https://thebandf.com/assets/img/logo.png"
+                    src="/image/logo.webp"
                     alt="Workflow"
                     width={200}
                     height={150}

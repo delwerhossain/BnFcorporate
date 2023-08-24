@@ -6,25 +6,25 @@ const team = [
     id: 1,
     name: "Abdullah Al Mamun",
     position: "Manager (Customer Service)",
-    img: "https://thebandf.com/assets/img/team/team-1.jpg",
+    img: "/image/team-1.webp",
   },
   {
     id: 2,
     name: "Saima Siddiqua",
     position: "Manager (HR)",
-    img: "https://thebandf.com/assets/img/team/team-2.jpg",
+    img: "/image/team-2.webp",
   },
   {
     id: 3,
     name: "Mohammed Rased Iqbal",
     position: "Q T Supervisor",
-    img: "https://thebandf.com/assets/img/team/team-3.jpg",
+    img: "/image/team-3.webp",
   },
   {
     id: 4,
     name: "Shahed Iqbal",
     position: "Q T Supervisor",
-    img: "https://thebandf.com/assets/img/team/team-4.jpg",
+    img: "/image/team-4.webp",
   },
 ];
 

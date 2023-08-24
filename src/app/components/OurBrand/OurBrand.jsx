@@ -55,7 +55,7 @@ const OurBrand = () => {
         <div className="hidden lg:block">
           {" "}
           <Globe />
-        </div>      
+        </div>
       </div>
       <div className="mt-12">
         <Image
