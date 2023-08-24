@@ -22,20 +22,20 @@ const HeroSection = () => {
       className=" md:py-5 bg-neutral-100 lg:py-10"
     >
       <div className="gap-5">
-        <div className="order-1 lg:order-2 pt-12 h-screen">
-          {/* <video
+        <div className="order-1 lg:order-2 lg:pt-12 lg:h-screen">
+          <video
+            className=" lg:h-5/6"
             style={{ maxWidth: "100%", width: "1200px", margin: "0 auto" }}
             loop
             muted
             controls
             preload="auto"
-            alt="All the devices"
-            src="./ProfileVideo.mp4"
+            alt="B&F CORPORATE"
+            src="http://video.chowdhuryinfotech.com/video.mp4"
             ref={videoEl}
-          /> */}
-          <iframe
+          />
+          {/* <iframe
             className=" h-5/6"
-            
             width="100%"
             height="100%"
             src="https://www.youtube.com/embed/Wo-v5AGm5qk"
@@ -43,7 +43,7 @@ const HeroSection = () => {
             frameborder="0"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
-          ></iframe>
+          ></iframe> */}
         </div>
       </div>
     </section>
