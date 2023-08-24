@@ -23,15 +23,14 @@ const HeroSection = () => {
       className=" md:py-5 bg-neutral-100 lg:py-10"
     >
       <div className="gap-5">
-        <div className="order-1 lg:order-2 lg:pt-12 lg:h-screen">
-          <div className=" lg:h-5/6">
+        <div className="order-1 lg:order-2 lg:pt-12 lg:h-screen ">
+          <div className="h-96 lg:h-5/6">
             {" "}
             <ReactPlayer
               width="100%"
               height="100%"
               url="https://www.youtube.com/embed/Wo-v5AGm5qk"
               controls={true}
-            
             />
           </div>
           {/* <video
