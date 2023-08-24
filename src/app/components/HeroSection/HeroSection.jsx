@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
+import ReactPlayer from "react-player";
 
 const HeroSection = () => {
   const videoEl = useRef(null);
@@ -23,7 +24,15 @@ const HeroSection = () => {
     >
       <div className="gap-5">
         <div className="order-1 lg:order-2 lg:pt-12 lg:h-screen">
-          <video
+          <ReactPlayer
+            className=" lg:h-4/6"
+            width="100%"
+            height="100%"
+            url="https://www.youtube.com/embed/Wo-v5AGm5qk"
+            controls={true}
+            playing={true}
+          />
+          {/* <video
             className=" lg:h-5/6"
             style={{ maxWidth: "100%", width: "1200px", margin: "0 auto" }}
             loop
@@ -33,7 +42,7 @@ const HeroSection = () => {
             alt="B&F CORPORATE"
             src="https://chowdhuryinfotech.com/video.mp4"
             ref={videoEl}
-          />
+          /> */}
           {/* <iframe
             className=" h-5/6"
             width="100%"
