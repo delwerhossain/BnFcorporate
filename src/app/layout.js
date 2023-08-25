@@ -11,9 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
-      <head>
+      <Head>
         <link rel="icon" href="./image/favicon.ico" sizes="any" />
-      </head>
+      </Head>
       <body>
         <Header />
         <div className="max-w-7xl mx-auto">{children}</div>

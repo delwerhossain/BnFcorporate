@@ -62,7 +62,7 @@ const OurBrand = () => {
           className=" rounded-xl border border-orange-600 md:w-full w-11/12 mx-auto"
           src={"/image/about.jpeg"}
           alt=" "
-          width={1400}
+          width={1200}
           height={800}
         />{" "}
       </div>
