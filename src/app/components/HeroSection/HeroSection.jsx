@@ -29,7 +29,7 @@ const HeroSection = () => {
             <ReactPlayer
               width="100%"
               height="100%"
-              url="https://www.youtube.com/embed/Wo-v5AGm5qk"
+              url="https://www.youtube.com/embed/2yDTptRJhls?si=4X6FOuGz3KU35qqd"
               controls={true}
             />
           </div>
