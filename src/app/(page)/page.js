@@ -1,5 +1,7 @@
+import Cit from "../components/Cit/Cit";
+import ContactSection from "../components/ContactSection/ContactSection";
 import HeroSection from "../components/HeroSection/HeroSection";
-import MainBanner from "../components/MainBanner/MainBanner";
+import ManageTeam from "../components/ManageTeam/ManageTeam";
 import OurBrand from "../components/OurBrand/OurBrand";
 
 export default function Home() {
@@ -7,8 +9,11 @@ export default function Home() {
     <>
       <main>
         <HeroSection />
-        <MainBanner />
-        <OurBrand/>
+     
+        <OurBrand />
+        <Cit />
+        <ManageTeam />
+        <ContactSection/>
         {/* <LandingPage/> */}
       </main>
     </>

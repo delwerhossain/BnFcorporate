@@ -210,7 +210,7 @@ const Footer = () => {
           <div className="px-4 flex justify-center items-center bg-white rounded-xl md:h-auto h-16 md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
             <Image
               className="h-12 w-auto sm:h-10"
-              src="https://thebandf.com/assets/img/logo.png"
+              src="/image/logo.webp"
               alt=""
               width={300}
               height={200}
